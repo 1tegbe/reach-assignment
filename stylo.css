@@ -1,0 +1,14 @@
+@import "tailwindcss";
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+    justify-content: end;
+    flex: auto; 
+
+}
+.line{
+    border:1px;
+    border-color: black;
+    border-width: 10px;
+}
