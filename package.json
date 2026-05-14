@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tailwindcss -i ./stylo.css -o ./stylo.build.css",
     "build:css": "tailwindcss -i ./stylo.css -o ./stylo.build.css",
     "watch:css": "tailwindcss -i ./stylo.css -o ./stylo.build.css --watch"
   },
